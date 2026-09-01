@@ -1,7 +1,7 @@
 name: "ioBroker Soundcraft"
 version: "0.1.0"
 slug: "iobroker_soundcraft"
-description: "ioBroker for Soundcraft Ui12 on Home Assistant OS"
+description: "ioBroker with Soundcraft Ui12 support"
 url: "https://github.com/roypa-dxb/ha-soundcraft-ui12"
 
 arch:
@@ -11,8 +11,6 @@ arch:
 startup: services
 boot: auto
 init: false
-
-image: "iobroker/iobroker"
 
 ports:
   8081/tcp: 8081
@@ -31,3 +29,4 @@ options:
 
 schema:
   timezone: str
+
