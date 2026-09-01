@@ -1,7 +1,7 @@
 name: "ioBroker Soundcraft"
 version: "0.1.0"
 slug: "iobroker_soundcraft"
-description: "ioBroker with Soundcraft Ui12 support"
+description: "ioBroker for Soundcraft Ui12 on Home Assistant OS"
 url: "https://github.com/roypa-dxb/ha-soundcraft-ui12"
 
 arch:
